@@ -1,32 +1,51 @@
-# Vuepress for Project Template
+# ドキュメント置き場
 
-Vuepress（静的サイトジェネレータ）による、プロジェクトテンプレート用のドキュメント置き場です。
+## 構造
 
-## Requirements
+```sh
+.
+├── docs/
+│   ├── .vuepress # theme関連ファイル
+│   │   ├── config.js # ページ設定
+│   │   ├── components # *.vue（記事内で読み込み可）
+│   │   └── public # メディアディレクトリ
+│   ├── README.md # トップページ
+│   └── * # ページディレクトリ
+│       └── *.md # ページデータ
+└── vuepress/ # ドキュメントルート（dist）
+```
+
+## 執筆
+
+### ドキュメント追加
+
+`docs/**/*.md`
+
+```
+$ git add .
+$ git commit -am ''
+$ git push
+# published to -> docs.cinra.net
+```
+
+## Theme編集
+
+### Requirements
 
 ```
 node >= 8.x.x
 npm >= 5.x.x
 ```
 
-## Install
+### Install
 
 ```shell
 $ yarn install
 ```
 
-## Start
+### Start
 
 ```
 $ yarn dev
 # look at -> localhost:8080
-```
-
-## Deploy
-
-```
-$ git add .
-$ git commit -am 'message'
-$ git push
-# published to -> docs.cinra.net
 ```
