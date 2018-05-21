@@ -5,14 +5,14 @@
 ```sh
 .
 ├── docs/
-│   ├── .vuepress # theme関連ファイル
-│   │   ├── config.js # ページ設定
-│   │   ├── components # *.vue（記事内で読み込み可）
-│   │   └── public # メディアディレクトリ
-│   ├── README.md # トップページ
-│   └── * # ページディレクトリ
-│       └── *.md # ページデータ
-└── vuepress/ # ドキュメントルート（dist）
+│   ├── .vuepress           # theme関連ファイル
+│   │   ├── config.js       # ページ設定
+│   │   ├── components      # *.vue（記事内で読み込み可）
+│   │   └── public          # メディアディレクトリ
+│   ├── README.md           # トップページ
+│   └── *                   # ページディレクトリ
+│       └── *.md            # ページデータ
+└── vuepress/               # ドキュメントルート（dist）
 ```
 
 ## 執筆
