@@ -21,7 +21,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'uuki/note',
+    repo: 'cinra/dev-docs',
     editLinks: true,
     docsDir: 'docs',
     locales: {
