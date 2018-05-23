@@ -6,7 +6,7 @@ sidebar: auto
 
 ## Pages
 
-- [シンタックスを試すページ](test.md)
+- [シンタックス色々](test.md)
 
 
 ## Chrome v66~ 自動再生サンプル
