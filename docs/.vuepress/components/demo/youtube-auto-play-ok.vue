@@ -1,5 +1,7 @@
 <template>
-  <div id="youtube"></div>
+  <section :class="$style.section">
+    <div id="youtube"></div>
+  </section>
 </template>
 
 <script>
@@ -51,3 +53,9 @@ export default {
   }
 }
 </script>
+
+<style module>
+.section {
+  text-align: center;
+}
+</style>

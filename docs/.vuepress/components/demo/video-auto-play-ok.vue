@@ -1,7 +1,9 @@
 <template>
-  <video muted autoplay loop :class="$style.video">
-    <source src="/dummy.mp4"></video>
-  </video>
+  <section :class="$style.section">
+    <video muted autoplay loop :class="$style.video">
+      <source src="/dummy.mp4"></video>
+    </video>
+  </section>
 </template>
 
 <script>
@@ -15,6 +17,9 @@ export default {
 </script>
 
 <style module>
+.section {
+  text-align: center;
+}
 .video {
   width: 560px;
   height: 315px;
