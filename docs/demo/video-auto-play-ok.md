@@ -15,7 +15,10 @@
 ## Youtube (iframe API)
 
 ```js
-myVideo.muted();
+// Loaded -> https://www.youtube.com/iframe_api
+
+myVideo.mute()
+myVideo.playVideo()
 ```
 
 <demo-youtube-auto-play-ok/>
